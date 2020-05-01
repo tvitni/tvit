@@ -1,0 +1,31 @@
+
+.div1{ 
+  
+  min-height: 150px;
+  float: left;
+}
+.div2{    
+  min-height: 150px;  
+  float: left;
+  
+}
+
+.div{ 
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  text-align:center;
+  }
+  
+  :-moz-placeholder { /* Firefox 18- */
+     text-align:center;  
+  }
+  
+  ::-moz-placeholder {  /* Firefox 19+ */
+     text-align:center;  
+  }
+  
+  :-ms-input-placeholder {  
+     text-align:center; 
+  }
