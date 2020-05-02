@@ -37,7 +37,7 @@ for (let i = 0; i < 2; i++) {
 }
 }
 
-chooseExpenses()
+chooseExpenses();
 
 function detectDayBudget() {
 appData.moneyPerDay = (appData.budget / 30).toFixed();
@@ -55,7 +55,7 @@ if (appData.moneyPerDay < 100) {
 	console.log("Да ты приуспел с баблишком))");
 } else {
 	console.log("Что-то пошло ни так и ты все сломал, зачем ты так?");
-};
+}
 }
 detectLevel();
 

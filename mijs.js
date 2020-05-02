@@ -32,9 +32,3 @@ alert(appData.moneyApp / 30);
 
 console.log(appData["expenses"]);
 };
-
-
-
-
-// https://qna.habr.com/q/611942 
-// 5) Вывести на экран пользователя бюджет на 1 день (брать месяц за 30 дней, использовать alert)
