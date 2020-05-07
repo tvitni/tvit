@@ -10,7 +10,7 @@ function start() {
 	}
 }
 
-// but.onclick = start();
+but.onclick = start();
 
 
 
@@ -71,11 +71,11 @@ let appData = {
 		for (let i = 0; i < 1; i++ ) {
 			let items = prompt('Что принесет доп. доход? (Перечислите это через запятую)', '');
 			if ((typeof (items) === 'string') && (items != "") && (items != " ") && (items != null)){
-			appData.income = items.split(', ');
-			appData.income.push(prompt('может, что-то еще?', ''));
-			appData.income.sort();
-		  appData.income.forEach (function (key, num)	{
-			alert("Способы доп. заработка: " + (num+1) + - " - " + key);
+			appData.income = items.split(', '); //Превращаем строку в массив
+			appData.income.push(prompt('может, что-то еще?', '')); //Добавляем элемент в конец массива.
+			appData.income.sort(); //Сортируем
+		  appData.income.forEach (function (key, num)	{ //Перебераем массив
+			alert("Способы доп. заработка: " + (num+1) +  " - " + key);
 			});
 		} else {
 			i = i - 1;
@@ -84,6 +84,7 @@ let appData = {
 	}
 };
 
-for (let n in appData) {
-	console.log("Наша программа включает в себя данные: " + n + " - " + appData[n]);
-	}
+
+// for (let n in appData) {
+// 	console.log("Наша программа включает в себя данные: " + n + " - " + appData[n]);
+// 	}
