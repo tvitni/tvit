@@ -39,7 +39,13 @@
 //     console.log(ans);  
 
 
-for (let i = 0; i < 1; i++ ) {
-consile.log(i);
-};
 
+// approve.addEventListener('click', function(){
+//   let summ = 0;
+//   for (let i = 1; i < 4; i = i+2) {
+//   summ = summ + +expensesItem[i].value;
+// };
+//   expenses.textContent = summ;
+  
+
+// });
